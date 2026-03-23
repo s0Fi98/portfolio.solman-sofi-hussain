@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="icon" href="/image/edited.me.jpg"/>
+      <link rel="icon" href="/image/edited.me.jpg" />
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 
         <div className="flex flex-row w-full h-screen overflow-hidden">
